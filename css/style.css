@@ -1,0 +1,18 @@
+*{
+	font-family: 'Poiret One', cursive;
+}
+#home{
+	background-image: url(../assets/hd.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.overlay{
+	height: 100%;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=)repeat;
+}
+.ovr{
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+}
