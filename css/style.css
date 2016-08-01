@@ -17,141 +17,22 @@
 	background-color: rgba(0,0,0,0.4);
 }
 li{
-	list-style: none;
+	list-style: none !important;
 }
 a{
-	text-decoration: none;
-}
-#nav{
-	background-color: white;
-	position: absolute;
-	z-index: 10;
-	width: 100%;
-	padding-top: 7px;
-
-}
-.logo{
-	float: left;
-	margin-bottom: -12px;
-}
-.logo li{
-	background-color: none!important;
-}
-.logo img{
-	padding-left: 18px;
-	height: 50%;
-	width: 50%;
-}
-.lnk li:hover{
-	background-color: #999595;
+	text-decoration: none !important;
 }
 
-.lnk a{
-	text-transform: uppercase;
-	color: black;
-	text-decoration:bold;
-}
-.lnk li{
-	position: relative;
-	display: inline-block;
-	padding: 7px;
-}
-.sub li{
-	display: block;
-	line-height: 0px;
-	padding:14px;	
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-.lnk{
-	padding-top: 10px;
-	margin-bottom: -2px;
-	float: right;
-	padding-right: 30px;
-}
 
-#nav ul li:hover ul {
-  display: block;
-  margin-top: 5px;
-  margin-left: -5px;
-  width: 100%; }
-
-#nav ul ul {
-  display: none;
-  position: absolute; }
-
-.sub{
-	background-color: white;
-}
-/***********/
-/*About*/
-/************/
-#about{
-	background-color: white;
-}
-.bg{
-	margin-left: -20px;
-	padding-top: 120px;
-	font-size: 60px;
-	color: white;
-	margin-bottom: -15px;
-}
-.mdim{
-	font-size: 30px;
-	margin-top: -15px;
-	color: white;
-}
-.sch{
-	width: 100%;
-	display: inline;
-	color: white !important;
-	margin-top: 60px;
-}
-.sch input{
-	background-color: rgba(0,0,0,0) !important;
-	border: none !important;
-	border-bottom: 1px solid  white !important;
-	font-size: 18px;
-}
-.ttl{
-	font-weight: 800;
-	font-size: 20px;
-	text-transform: uppercase;
-	text-align: center;
-	padding-top: 20px;
-}
-.ttls{
-	font-weight: 800;
-	font-size: 20px;
-	margin-bottom: -5px;
-}
-.rnd{
-	border-radius: 5px;
-}
-.rght{
-	text-align: right;
-}
-.ml:hover img{
-	height: 100%;
-	background-color: rgba(0,0,0,0.4);
-}
-/******/
-/*Contact*/
-/**********/
 .map{
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=)repeat;
    position:relative; 
    width:100%;
-   height:250px; /* your iframe height */
-   top:250px;  /* your iframe height */
-   margin-top:-250px;  /* your iframe height */
+   height:250px; 
+   top:250px;  
+   margin-top:-250px; 
 }
-.toof{
-	margin-top: -12px;
-	bottom: 0;
-	height: 200px;
-	background-color: #333131;
-}
+
 
 
 
